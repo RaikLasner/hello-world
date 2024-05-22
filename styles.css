@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Moderne, serifenlose Schrift */
     margin: 0;
     padding: 0;
 }
@@ -7,12 +9,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: #000; /* Schwarz */
+    color: white; /* Weiße Schrift */
     padding: 10px 20px;
 }
 header a {
-    color: white;
+    color: white; /* Weiße Links im Header */
     text-decoration: none;
 }
 main {
@@ -29,4 +31,27 @@ h1 {
     flex-direction: column;
     gap: 10px;
 }
-.button-container a
+.button-container a {
+    background-color: #001f3f; /* Naviblau */
+    color: white; /* Weiße Schrift */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: 0 auto; /* Zentriert die Buttons */
+}
+.button-container a:hover {
+    background-color: #001633; /* Dunkleres Naviblau beim Hover */
+}
+footer {
+    background-color: #000; /* Schwarz */
+    color: white; /* Weiße Schrift */
+    text-align: center;
+    padding: 10px 0;
+}
+footer a {
+    color: white; /* Weiße Links im Footer */
+    margin: 0 10px;
+    text-decoration: none;
+}
