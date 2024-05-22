@@ -43,6 +43,25 @@ h1 {
 }
 .button-container a:hover {
     background-color: #004080; /* Dunkleres Naviblau beim Hover */
+
+.button-container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button-container2 a {
+    background-color: #FF0000; /* Helleres Rot */
+    color: white; /* Weiße Schrift */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: 0 auto; /* Zentriert die Buttons */
+}
+.button-container2 a:hover {
+    background-color: #8b0000; /* Dunkleres rot beim Hover */
+
 }
 footer {
     background-color: #000; /* Schwarz */
