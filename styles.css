@@ -41,27 +41,14 @@ h1 {
     max-width: 200px;
     margin: 0 auto; /* Zentriert die Buttons */
 }
-.button-container-2 a:hover {
+.button-container a:hover {
     background-color: #004080; /* Dunkleres Naviblau beim Hover */
-
-.button-container-2 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
-.button-container-2 a {
-    background-color: #FF0000; /* Helleres Rot */
-    color: white; /* Weiße Schrift */
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    max-width: 200px;
-    margin: 0 auto; /* Zentriert die Buttons */
+.button-container a.red-button {
+    background-color: #ff0000; /* Rot */
 }
-.button-container2 a:hover {
-    background-color: #8b0000; /* Dunkleres rot beim Hover */
-
+.button-container a.red-button:hover {
+    background-color: #cc0000; /* Dunkleres Rot beim Hover */
 }
 footer {
     background-color: #000; /* Schwarz */
