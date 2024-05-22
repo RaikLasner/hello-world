@@ -29,25 +29,4 @@ h1 {
     flex-direction: column;
     gap: 10px;
 }
-.button-container a {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.button-container a:hover {
-    background-color: #0056b3;
-}
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-footer a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
+.button-container a
