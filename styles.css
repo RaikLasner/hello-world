@@ -32,7 +32,7 @@ h1 {
     gap: 10px;
 }
 .button-container a {
-    background-color: #001f3f; /* Naviblau */
+    background-color: #005b99; /* Helleres Naviblau */
     color: white; /* Weiße Schrift */
     padding: 10px 20px;
     text-align: center;
@@ -42,7 +42,7 @@ h1 {
     margin: 0 auto; /* Zentriert die Buttons */
 }
 .button-container a:hover {
-    background-color: #001633; /* Dunkleres Naviblau beim Hover */
+    background-color: #004080; /* Dunkleres Naviblau beim Hover */
 }
 footer {
     background-color: #000; /* Schwarz */
