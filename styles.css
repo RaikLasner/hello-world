@@ -41,15 +41,15 @@ h1 {
     max-width: 200px;
     margin: 0 auto; /* Zentriert die Buttons */
 }
-.button-container a:hover {
+.button-container-2 a:hover {
     background-color: #004080; /* Dunkleres Naviblau beim Hover */
 
-.button-container2 {
+.button-container-2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.button-container2 a {
+.button-container-2 a {
     background-color: #FF0000; /* Helleres Rot */
     color: white; /* Weiße Schrift */
     padding: 10px 20px;
