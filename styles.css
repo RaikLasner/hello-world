@@ -67,3 +67,14 @@ footer a {
     margin: 0 10px;
     text-decoration: none;
 }
+/* Zusätzliche CSS für das Layout auf Desktop-Bildschirmen */
+@media (min-width: 768px) {
+    .about-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    .about-container img {
+        max-width: 300px;
+        margin-right: 20px;
+    }
+}
